@@ -1,5 +1,5 @@
 {
-  "name": "webpack_bundle",
+  "name": "work_with_pexel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paris-school/webpack_bundle.git"
+    "url": "git+https://github.com/AlexBelozertsev/work_with_pexel"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paris-school/webpack_bundle/issues"
+    "url": "https://github.com/AlexBelozertsev/work_with_pexel/issues"
   },
-  "homepage": "https://github.com/paris-school/webpack_bundle#readme",
+  "homepage": "https://github.com/AlexBelozertsev/work_with_pexel#readme",
   "devDependencies": {
     "@babel/core": "^7.12.8",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
