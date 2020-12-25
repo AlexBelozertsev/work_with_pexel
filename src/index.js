@@ -6,12 +6,18 @@ import refs from "./js/refs.js";
 const { form, gallery } = refs;
 
 form.addEventListener("submit", (e) => {
-  e.preventDefault();
+    e.preventDefault();
+    
 //   console.log(e);
+    
 //   console.log(e.target);
+    
 //   console.log(e.target.elements);
+    
 //   console.log(e.target.elements.query);
+    
 //   console.log(e.target.elements.query.value);
+    
   const inputValue = e.target.elements.query.value;
   fetch.getFetch(inputValue, gallery);
 });
