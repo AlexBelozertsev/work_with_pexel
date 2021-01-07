@@ -2,3 +2,13 @@ body {
   background: black;
   color: wheat;
 }
+
+.gallery li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loadMoreBtn {
+  opacity: 0;
+}

@@ -10,13 +10,14 @@
     <main>
       <form class="form">
         <label for="">Ввести запрос
-          <input type="text" name="query" id="query" placeholder="Enter here">
+          <input type="text" name="query" id="query" onfocus="this.value=''" placeholder="Enter here">
         </label>
         <button class="cearchBtn" type="submit">Search</button>
       </form>
       <article>
         <h2>Result</h2>
         <ul class="gallery"></ul>
+        <button class="loadMoreBtn">Load More...</button>
       </article>
     </main>
 </body>
